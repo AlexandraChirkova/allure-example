@@ -10,7 +10,7 @@ public class LoginTests {
     @Story("Логин с валидными кредами")
     @Severity(SeverityLevel.CRITICAL)
     @Owner("qa-team")
-    @TmsLink("TMS-101")
+    @AllureId("42073")
     @Description("Проверяем успешный логин с корректным логином и паролем")
     @Test
     void successfulLoginTest() {
