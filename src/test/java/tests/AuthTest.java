@@ -3,6 +3,8 @@ package tests;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.Test;
 
+@Epic("Авторизация")
+@Feature("Логин")
 public class AuthTest {
 
     @Story("Логин с валидными кредами в google")
